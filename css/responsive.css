@@ -1,0 +1,106 @@
+@media (max-width: 1200px) {
+    main{
+        width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content{
+        width: 100%;
+        align-items: center;
+
+        margin-bottom: 15%;
+    }
+
+    main .main-content .text, .techs{
+        text-align: center;
+    }
+
+    main .main-content .text {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    main .techs .cards-container, .main-content .text p, .text ul{
+        margin-top: 32px;
+    }
+
+
+    ul{ 
+        font-size: 0,9em;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    main .techs .cards-container .card {
+        width: 100px;
+        height: 100px;
+    }
+
+    main figure img{
+        margin-top: 30px;
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 1000px) {
+    main .techs .cards-container .card {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 840px) {
+    main .techs .cards-container .card {
+        width: 70px;
+        height: 70px;
+    }
+}
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 2em;
+    }
+
+    header nav{
+        margin-top: 24px;
+    }
+
+    header nav a{
+        font-size: 1em;
+    }
+
+    main .techs .cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .techs .cards-container .card {
+        margin-top: 5px;
+        width: 60px;
+        height: 60px;
+    }
+
+    main .main-content .text h2, .main-content .techs h2{
+        font-size: 1.8em;
+    }
+
+    main figure img{
+        width: 200px;
+        height: 200px;
+    }
+}
